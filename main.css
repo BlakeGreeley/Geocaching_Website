@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+body {
+	margin: 20px;
+	font-family: Copperplate;
+	background-color: #9D8D8F;
+}
+
+.container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.container2{
+	justify-content: space-between;
+	margin: 75px;
+}
+
+.form {
+	font-size: 32px;
+	background-color: #5A5560;
+	padding: 30px;
+	border: 8px solid #9B786F;
+	width: 100%;
+}
+
+.empty {
+	background-color: #FAED26;
+	height: 2px;
+	border: 3px black solid;
+}
+
+.image-top {
+	border:  #FAED26 solid 4px;
+}
+
+.nav {
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 20px;
+	font-size: 40px;
+}
+
+a {
+	padding: 30px;
+}
+
+th {
+	font-size: 24px;
+}
+
+h2 {
+	color: #FAED26;
+	text-decoration: underline black;
+	font-size: 48px;
+}
+
+.table {
+		border: #F6DFEB solid 4px;
+		padding: 10px;
+		background-color: #CAF7E3;
+		margin: 5px;
+		width: 70%;
+		text-align: center;
+}
+
+.body {
+	display: flex;
+}
+
+.picture {
+	width: 270px;
+	height: 240px;
+	border: #F6DFEB solid 4px;
+	margin: 5px;
+}
+
+.picture-nav {
+	width: 70px;
+	height: 75px;
+	border: #F6DFEB solid 4px;
+	border-radius: 50%;
+}
+
+.name-pic {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.name {
+	padding-right: 20px;
+}
+
+td {
+	padding-left: 20px;
+	border: black solid 1px;
+	background-color: white;
+	
+}
+
+.body-pic {
+	background-color: #CAF7E3;
+	border: #F6DFEB solid 4px;
+	margin: 7px;
+}
+
+.love {
+	margin: 15px;
+	text-decoration: underline;
+}
+
+.happening {
+	background-color: white;
+	padding: 15px;
+	border: black solid 2px;
+}
+
+.vows {
+	font-size: 28px;
+	margin: 10px;
+	color: #CAF7E3;
+}
+
+.vows-h {
+	text-align: center;
+	font-size: 48px;
+	color: #B20600;
+}
+
+.vow-box {
+	background-color: white;
+	height: 100%;
+	width: 1250px;
+	margin-left: 45px;
+	text-align: center;
+	font-size: 30px;
+	font-family: cursive;
+}
+
+.button {
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	margin-top: 5px;
+}
